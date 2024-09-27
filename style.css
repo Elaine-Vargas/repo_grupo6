@@ -45,3 +45,8 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
