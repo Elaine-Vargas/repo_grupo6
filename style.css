@@ -8,7 +8,8 @@
   font-style: normal;
 }
 body {
-    background-image: url('https://www.pexels.com/es-es/foto/coches-mercedes-benz-blancos-120049/');
+   background-color: #1d1624;
+   color: #f4f2f2;
 }
 .img1{
   width: 40%;
@@ -21,7 +22,7 @@ li {
 
 a { 
   text-decoration: none;
-  color:#000000;
+  color:#ffff;
   font-size: 1rem;
 }
  
