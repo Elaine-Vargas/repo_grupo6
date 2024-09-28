@@ -6,3 +6,17 @@ function muestra_oculta(id){
     else{
         div.style.display="none";
     }}
+
+
+    const imagenes = document.getElementsByClassName('card-group'); 
+
+    Array.from(imagenes).forEach((imagen) => {
+        imagen.addEventListener('mouseover', () => {
+            imagen.classList.add('resaltado');
+        });
+    
+        imagen.addEventListener('mouseout', () => {
+            imagen.classList.remove('resaltado');
+        });
+    });
+    
