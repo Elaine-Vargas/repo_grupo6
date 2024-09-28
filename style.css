@@ -140,3 +140,12 @@ card-img-top {
 .card-img-top:hover {
   transform: scale(1.1); 
 }
+
+#NuevoM {
+font-size: 40px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
