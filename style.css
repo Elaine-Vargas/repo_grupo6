@@ -144,3 +144,7 @@ card-img-top {
 #NuevoM {
 font-size: 40px;
 }
+
+.card {
+  border-radius: 15px;
+}
