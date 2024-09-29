@@ -59,3 +59,8 @@ header {
 #card { 
   transition: transform 0.3s ease; /* Transición suave */
 }
+
+.resaltado {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
