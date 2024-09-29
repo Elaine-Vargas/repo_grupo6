@@ -175,7 +175,9 @@ section{
   border-radius: 50%;
 }
 
-
+.text-muted{
+  padding-top: 1%;
+}
 .card p:nth-child(3){
   color: grey;
   margin-top: -60px;
