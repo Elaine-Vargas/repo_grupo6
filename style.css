@@ -175,9 +175,6 @@ section{
   border-radius: 50%;
 }
 
-.card p{
-  text-align: center;
-}
 
 .card p:nth-child(3){
   color: grey;
