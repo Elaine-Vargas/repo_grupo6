@@ -160,7 +160,7 @@ section{
 .card{
   display: grid;
   justify-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 450px;
   height: 600px;
   background-color: #fff;
