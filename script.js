@@ -8,7 +8,7 @@ function muestra_oculta(id){
     }}
 
 
-const imagen = document.getElementById('gclass'); 
+const imagen = document.getElementsByClassName('card-group'); 
 
 imagen.addEventListener('mouseover', () => {
 
