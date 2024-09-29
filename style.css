@@ -171,8 +171,9 @@ section{
 
 .card img{
   margin-top: 40px;
-  width: 60%;
+  width: 90%;
   border-radius: 50%;
+  align-content: center;
 }
 
 .text-muted{
@@ -183,8 +184,23 @@ section{
   margin-top: -60px;
   font-size: 20px;
 }
+.card-text{
+  text-align: left;
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
 
+.card-text button {
+  margin-top: 10px; /* Añade un poco de espacio arriba del botón */
+}
 
+/* Si quieres que el texto esté alineado a la izquierda pero el botón centrado */
+.card-text p {
+  align-self: flex-start;
+  width: 100%;
+}
 .card #boton{
   color: #ffffff;
   font-size: 30px;
