@@ -57,7 +57,7 @@ header {
 }
 
 #card { 
-  transition: transform 0.3s ease; /* Transición suave */
+  transition: transform 0.4s ease; /* Transición suave */
 }
 
 .resaltado {
@@ -160,7 +160,7 @@ section{
 .card{
   display: grid;
   justify-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 450px;
   height: 600px;
   background-color: #fff;
@@ -170,13 +170,13 @@ section{
 }
 
 .card img{
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   align-content: center;
 }
 
 .text-muted{
-  padding-top: 1%;
+  padding-top: -1%;
 }
 .card p:nth-child(3){
   color: grey;
