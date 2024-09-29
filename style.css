@@ -192,10 +192,10 @@ section{
 }
 
 .card-text button {
-  margin-top: 10px; /* Añade un poco de espacio arriba del botón */
+  margin-top: 20px; /* Añade un poco de espacio arriba del botón */
 }
 
-/* Si quieres que el texto esté alineado a la izquierda pero el botón centrado */
+
 .card-text p {
   align-self: flex-start;
   width: 100%;
