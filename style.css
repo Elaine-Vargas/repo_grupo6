@@ -147,4 +147,5 @@ font-size: 40px;
 
 .card {
   border-radius: 15px;
+  overflow: hidden;
 }
