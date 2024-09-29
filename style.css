@@ -180,7 +180,7 @@ section{
 }
 .card p:nth-child(3){
   color: grey;
-  margin-top: -40px;
+  margin-top: 40px;
   font-size: 20px;
 }
 .card-text{
