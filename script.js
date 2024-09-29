@@ -6,3 +6,14 @@ function muestra_oculta(id){
     else{
         div.style.display="none";
     }}
+
+
+const imagen = document.getElementById('gclass'); 
+
+imagen.addEventListener('mouseover', () => {
+
+});
+
+imagen.addEventListener('mouseout', () => {
+        imagen.classList.remove('resaltado');
+});
