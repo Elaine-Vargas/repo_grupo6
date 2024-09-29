@@ -185,12 +185,6 @@ section{
   font-size: 20px;
 }
 
-.card p:nth-child(2){
-  margin-top: 20px;
-  font-weight: 600;
-  font-size: 30px;
-  color: #e02fff;
-}
 
 .card #boton{
   color: #ffffff;
