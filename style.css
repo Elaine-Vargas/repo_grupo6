@@ -145,7 +145,7 @@ card-img-top {
 font-size: 40px;
 }
 
-.card {
+.card-group{
   border-radius: 15px;
   overflow: hidden;
 }
