@@ -8,15 +8,14 @@ function muestra_oculta(id){
     }}
 
 
-    const imagenes = document.getElementsByClassName('card-group'); 
+    const imagenes = document.getElementsByClassName('card'); 
 
-    Array.from(imagenes).forEach((imagen) => {
+    Array.from(cards).forEach((card) => {
         imagen.addEventListener('mouseover', () => {
             imagen.classList.add('resaltado');
         });
     
         imagen.addEventListener('mouseout', () => {
-            imagen.classList.remove('resaltado');
         });
     });
     
