@@ -287,7 +287,7 @@ section{
   background-size: cover;
 }
 
-/* contenedor del login a la izquierda */
+/* login a la izquierda */
 #contenedorcentrado {
   display: flex;
   align-items: center;
@@ -298,7 +298,7 @@ section{
   max-width: 900px;
   width: 90%;
   
-  background-color: #5f6769;
+  background-color: #445b9e;
   
   /*opacity: 0.50;
   filter: alpha(opacity=50);*/
@@ -315,14 +315,14 @@ section{
   box-sizing: border-box;
 }
 
-/* formulario de login */
-/* formulario de login */
+/* login */
+/*  de login */
 #login {
   width: 100%;
   max-width: 320px;
   min-width: 320px;
   padding: 30px 30px 50px 30px;
-  background-color: #719192;
+  background-color: #adbed5;
   
   -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -393,11 +393,10 @@ section{
   background-color: #3c4245;
   color:#dfcdc3;
 }
-/* formulario de login */
-/* formulario de login */
+/*  login */
+/*  login */
 
-/* seccion de la derecha */
-/* seccion de la derecha */
+
 /* por defecto */
 #derecho {
   /*display: flex;
@@ -445,11 +444,9 @@ border-bottom: 1px solid #dfcdc3;
 .pie-form a:hover {
   color: #719192;
 }
-/* seccion de la derecha */
-/* seccion de la derecha */
 
-/* ajustar a pantallas con ancho menor o igual a 775px; */
-/* ajustar a pantallas con ancho menor o igual a 775px; */
+
+
 @media all and (max-width: 775px)
 {
   #contenedorcentrado {
@@ -488,8 +485,6 @@ border-bottom: 1px solid #dfcdc3;
       text-align: left;
   }
 }
-/* ajustar a pantallas con ancho menor o igual a 775px; */
-/* ajustar a pantallas con ancho menor o igual a 775px; */
 
 .pie-form { 
   margin-right: 100px;
